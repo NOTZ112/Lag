@@ -18,3 +18,13 @@ if age >= 18:
     print("നിങ്ങൾക്ക് Vote ചെയ്യാം.")
 else:
     print("നിങ്ങൾക്ക് ഇനിയും Vote ചെയ്യാൻ കഴിയില്ല.")
+mark = int(input("മാർക്ക് നൽകൂ: "))
+
+if mark >= 95:
+    print("Grade A")
+elif mark >= 80:
+    print("Grade B")
+elif mark >= 60:
+    print("Grade C")
+else:mark >=30
+    print("Fail")

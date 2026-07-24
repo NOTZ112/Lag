@@ -26,5 +26,5 @@ elif mark >= 80:
     print("Grade B")
 elif mark >= 60:
     print("Grade C")
-else:mark >=30
+else:
     print("Fail")
